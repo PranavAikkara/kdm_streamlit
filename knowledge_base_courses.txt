@@ -1,0 +1,131 @@
+# KDM GLOBAL EDU SDN BHD - OPTIMIZED KNOWLEDGE BASE (CONSOLIDATED)
+# FORMAT: Larger chunks ~300-400 tokens each, fewer total chunks
+# METADATA: level|course_name|type
+# LEVELS: ug (undergraduate), pg (postgraduate), general
+# TYPES: overview, financial, career, requirements, facilities
+
+===CHUNK_START===
+level: general
+course_name: Course Catalog Overview
+type: overview
+text: KDM Global Edu Sdn Bhd offers 15 comprehensive programmes across 5 faculties. UNDERGRADUATE PROGRAMMES (12 total): Faculty of Computing & Information Technology offers 4 programmes - Bachelor Computer Science in Software Engineering, Bachelor Computer Science in Artificial Intelligence, Bachelor Information Technology in Data Science, and Bachelor Computer Science in Cybersecurity. Faculty of Business & Management provides 4 programmes - Bachelor Business Administration in Marketing, Bachelor Business Administration in Finance, Bachelor Accounting, and Bachelor International Business. Faculty of Engineering delivers 3 programmes - Bachelor Mechanical Engineering, Bachelor Electrical & Electronic Engineering, and Bachelor Civil Engineering. Faculty of Health Sciences runs 2 programmes - Bachelor Nursing and Bachelor Physiotherapy. Faculty of Creative Arts & Design offers 2 programmes - Bachelor Graphic Design and Bachelor Animation & Multimedia. POSTGRADUATE PROGRAMMES (3 total): Master of Business Administration (MBA), Master of Computer Science in Artificial Intelligence, and Master of Engineering in Mechanical Engineering. All programmes are industry-aligned with strong employment outcomes.
+===CHUNK_END===
+
+===CHUNK_START===
+level: ug
+course_name: Bachelor Computer Science Software Engineering
+type: overview
+text: 3-year full-time programme (6 semesters) at Main Campus Kuala Lumpur. Comprehensive curriculum: Year 1 covers Programming Fundamentals, Mathematics for Computing, Computer Systems & Organization, Database Management Systems, and Web Development Fundamentals. Year 2 includes Software Engineering Principles, Advanced Programming, Computer Networks, Human-Computer Interaction, Software Design & Architecture, Operating Systems, Software Testing & Quality Assurance, and Project Management. Year 3 focuses on Advanced Software Engineering, Mobile Application Development, Cloud Computing, Cybersecurity Fundamentals, Software Maintenance & Evolution, and Final Year Project spanning two semesters. Industry-focused with practical projects, internship opportunities with major tech companies, and strong emphasis on modern software development methodologies. Graduates are well-prepared for roles in software development, systems analysis, and technical project management.
+===CHUNK_END===
+
+===CHUNK_START===
+level: ug
+course_name: Bachelor Computer Science Software Engineering
+type: financial
+text: MALAYSIAN STUDENTS: Application Fee RM200, Registration Fee RM500 (one-time), Tuition Fee RM12,000 per semester, Total Programme Cost RM72,500. Additional costs include Student Activity Fee RM200/semester and Insurance RM100/year. INTERNATIONAL STUDENTS: Application Fee RM500, Registration Fee RM1,000, Tuition Fee RM18,000 per semester, Total Programme Cost RM109,000. Additional costs include Insurance RM300/year and Visa Processing RM1,000. SCHOLARSHIPS AVAILABLE: Academic Excellence Scholarship offers 50% tuition reduction for SPM candidates with 8A+ results, requiring maintenance of CGPA 3.5+. Dean's List Scholarship provides 25% reduction for students maintaining CGPA 3.75+. Industry Partnership Scholarship gives 30% reduction plus guaranteed internship opportunities with Microsoft, Google, Amazon, and local tech companies. International Student Scholarship offers 20% reduction with additional benefits including airport pickup and accommodation assistance. Payment plans available including semester-wise payments and early payment discounts of 5%.
+===CHUNK_END===
+
+===CHUNK_START===
+level: ug
+course_name: Bachelor Computer Science Artificial Intelligence
+type: overview
+text: 3-year full-time programme (6 semesters) at Main Campus Kuala Lumpur with cutting-edge AI curriculum. Year 1 foundation: Programming Fundamentals, Mathematics for AI, Introduction to Artificial Intelligence, Linear Algebra & Calculus, Statistics & Probability, and Logic & Reasoning. Year 2 core: Machine Learning Fundamentals, Neural Networks & Deep Learning, Computer Vision, Natural Language Processing, Big Data Analytics, and AI Ethics & Society. Year 3 advanced: Advanced Machine Learning, AI in Gaming & Simulation, Cloud AI Services, Robotics & Automation, AI Research Methods, Intelligent Systems Design, and comprehensive Final Year Project. Programme features industry partnerships with NVIDIA and Intel, access to high-performance computing resources, specialized AI labs, and collaboration opportunities with research institutions. Strong emphasis on practical applications including computer vision projects, NLP applications, and machine learning model development. Graduates enter the rapidly growing AI industry with excellent prospects.
+===CHUNK_END===
+
+===CHUNK_START===
+level: ug
+course_name: Bachelor Computer Science Artificial Intelligence
+type: financial
+text: MALAYSIAN STUDENTS: Application Fee RM200, Registration Fee RM500, Tuition Fee RM13,500 per semester, Total Programme Cost RM81,500. Additional costs include Lab Fee RM500/semester and Software License Fee RM300/year. INTERNATIONAL STUDENTS: Application Fee RM500, Registration Fee RM1,000, Tuition Fee RM20,000 per semester, Total Programme Cost RM121,000. Additional fees include Lab Fee RM500/semester, Software License RM300/year, and Visa Processing RM1,000. PREMIUM SCHOLARSHIPS: AI Innovation Scholarship provides 60% tuition reduction for exceptional candidates with outstanding mathematics/science performance and coding portfolio, requiring CGPA 3.7+ maintenance. Industry AI Scholarship offers 40% reduction plus guaranteed internship with NVIDIA, Intel, or local AI startups. Research Excellence Scholarship gives 35% reduction for research-oriented students with mentorship and conference participation opportunities. International students receive 30% reduction under ASEAN Scholarship programme with cultural integration support. Financial aid options include payment plans and graduate employment assistance.
+===CHUNK_END===
+
+===CHUNK_START===
+level: ug
+course_name: Bachelor Business Administration Marketing
+type: overview
+text: 3-year full-time programme (6 semesters) at Main Campus Kuala Lumpur with practical business focus. Year 1 fundamentals: Principles of Marketing, Business Mathematics, Consumer Behavior, Statistics for Business, Microeconomics, Accounting Principles, and Critical Thinking. Year 2 specialization: Digital Marketing, Marketing Research, Brand Management, Sales Management, International Marketing, Macroeconomics, Business Law, and Organizational Behavior. Year 3 application: Strategic Marketing, Marketing Communications, E-commerce & Online Marketing, Marketing Analytics, Entrepreneurship, Business Ethics, Industrial Training (6 credits), and Final Year Project. Programme emphasizes real-world application through industry case studies, live client projects, digital marketing campaigns, and comprehensive industrial training with leading companies. Strong industry connections provide networking opportunities, guest lectures from marketing professionals, and direct pathway to employment with major brands and agencies.
+===CHUNK_END===
+
+===CHUNK_START===
+level: ug
+course_name: Bachelor Business Administration Marketing
+type: financial
+text: MALAYSIAN STUDENTS: Application Fee RM200, Registration Fee RM500, Tuition Fee RM10,500 per semester, Total Programme Cost RM63,500. Additional costs include Student Activity Fee RM200/semester and Industrial Training Fee RM800. INTERNATIONAL STUDENTS: Application Fee RM500, Registration Fee RM1,000, Tuition Fee RM15,500 per semester, Total Programme Cost RM94,000. Additional costs include Activity Fee RM200/semester and Visa Processing RM1,000. SCHOLARSHIPS: Marketing Excellence Scholarship offers 45% tuition reduction for outstanding SPM results plus marketing aptitude test performance, requiring CGPA 3.25+ maintenance. Digital Marketing Innovation Scholarship provides 35% reduction with included Google and Facebook professional certifications. International Business Scholarship gives 25% reduction with exchange programme opportunities to partner universities. Merit-based aid available based on academic performance, and need-based assistance for demonstrated financial hardship. Flexible payment options include semester plans and corporate sponsorship arrangements.
+===CHUNK_END===
+
+===CHUNK_START===
+level: pg
+course_name: Master Business Administration MBA
+type: overview
+text: Prestigious 2-year full-time or 3-year part-time programme with multiple delivery modes including Executive Weekend format. Located at Main Campus KL and Executive Campus. Class size limited to 60 students for personalized attention. CORE CURRICULUM: Strategic Management, Financial Management, Marketing Management, Operations Management, Human Resource Management, International Business, Business Ethics & Corporate Governance, and Research Methodology. SPECIALIZATION TRACKS: Digital Transformation (Digital Strategy, Data Analytics, E-commerce, Technology Management), Finance (Investment Analysis, Corporate Finance, Risk Management, Financial Markets), and Marketing (Consumer Behavior, Brand Management, Digital Marketing Strategy, Sales Management). EXPERIENTIAL LEARNING: 12-week summer internship programme, international study tour to emerging markets, live consulting projects with real companies, business simulation exercises, and comprehensive research project. Strong alumni network spanning Fortune 500 companies globally.
+===CHUNK_END===
+
+===CHUNK_START===
+level: pg
+course_name: Master Business Administration MBA
+type: financial
+text: FEES - Full-time Malaysian: Application RM500, Registration RM1,000, Tuition RM18,000/semester, Total RM73,000. Part-time Malaysian: RM12,000/semester, same total. Executive MBA: RM22,000/semester, Total RM89,500. International Full-time: RM28,000/semester, Total RM114,000. All programmes include case study materials, international study tour expenses, and career coaching services. ADMISSION REQUIREMENTS: Bachelor's degree minimum CGPA 2.75, minimum 3 years management/professional experience, IELTS 6.5 for international students, GMAT/GRE preferred but not mandatory, personal statement, professional references, and interview assessment. SCHOLARSHIPS: Executive Leadership Scholarship 50% reduction for 5+ years management experience, Academic Merit Scholarship 30% reduction for first-class honors, Corporate Sponsorship up to 100% coverage for employer-sponsored candidates, Women in Leadership Scholarship 25% reduction plus mentorship programme. Strong ROI with 40-60% salary increase post-graduation and 96% employment within 3 months.
+===CHUNK_END===
+
+===CHUNK_START===
+level: ug
+course_name: Bachelor Mechanical Engineering
+type: overview
+text: 4-year full-time programme (8 semesters) at Engineering Campus Shah Alam. Board of Engineers Malaysia (BEM) accredited with Washington Accord recognition ensuring global qualification recognition. CURRICULUM: Year 1 - Engineering Mathematics, Physics, Chemistry, Engineering Drawing & CAD, Computer Programming. Year 2 - Statics & Dynamics, Strength of Materials, Thermodynamics, Manufacturing Processes, Electrical Systems. Year 3 - Fluid Mechanics, Heat Transfer, Machine Design, Control Systems, Engineering Statistics. Year 4 - Internal Combustion Engines, Manufacturing Systems, Vibrations & Acoustics, Renewable Energy Systems, Project Management, Industrial Training (6 credits), and Final Year Project. State-of-the-art facilities include advanced engineering laboratories, manufacturing workshop with CNC machines, robotics and automation lab, materials testing facilities, and CAD/CAM design studios. Strong industry partnerships with Proton, Perodua, Shell, and Petronas provide internship opportunities and direct employment pathways. Professional Engineer (PE) registration pathway available upon graduation.
+===CHUNK_END===
+
+===CHUNK_START===
+level: ug
+course_name: Bachelor Mechanical Engineering
+type: financial
+text: MALAYSIAN STUDENTS: Application Fee RM200, Registration Fee RM500, Tuition Fee RM15,000 per semester, Total Programme Cost RM120,500. Additional costs include Lab & Workshop Fee RM800/semester, Industrial Training Fee RM1,500, and Thesis Supervision Fee RM2,000. INTERNATIONAL STUDENTS: Application Fee RM500, Registration Fee RM1,000, Tuition Fee RM22,000 per semester, Total Programme Cost RM177,000. Additional costs include Lab & Workshop Fee RM800/semester and Visa Processing RM1,000. SCHOLARSHIPS: Engineering Excellence Scholarship offers 40% tuition reduction for top 10% SPM/A-Level graduates with priority lab access and faculty mentorship. Industry Partnership Scholarship provides 50% reduction plus guaranteed employment upon graduation with major industry partners including Proton, Perodua, Shell, and Petronas, requiring 2-year employment commitment. ASEAN Scholarship offers 30% reduction for ASEAN international students with cultural integration programme. Career prospects include Mechanical Design Engineer (RM3,800-5,200), Manufacturing Engineer, Automotive Engineer, and Project Engineer roles.
+===CHUNK_END===
+
+===CHUNK_START===
+level: ug
+course_name: Bachelor Nursing
+type: overview
+text: 4-year full-time programme (8 semesters) at Health Sciences Campus Selangor. Malaysian Nursing Board accredited with clinical partnerships at Hospital Kuala Lumpur, Hospital Selayang, and leading private healthcare facilities. CURRICULUM: Year 1 - Anatomy & Physiology, Fundamentals of Nursing, Health Psychology, Communication Skills, Microbiology & Infection Control. Year 2 - Pathophysiology, Medical-Surgical Nursing, Pharmacology, Maternal & Child Health Nursing, Mental Health Nursing, Community Health Nursing with Clinical Practice rotations. Year 3 - Critical Care Nursing, Pediatric Nursing, Geriatric Nursing, Emergency & Trauma Nursing, Nursing Research with intensive Clinical Practice. Year 4 - Advanced Clinical Practice, Nursing Management & Leadership, Ethics & Legal Issues, Healthcare Policy & Economics, Professional Nursing Practice, and Capstone Project. FACILITIES: Simulation hospital with 15 beds, anatomy laboratory with virtual dissection technology, microbiology and pathology labs, nursing skills laboratory, and on-campus health clinic. Extensive clinical placements ensure hands-on experience in real healthcare settings.
+===CHUNK_END===
+
+===CHUNK_START===
+level: ug
+course_name: Bachelor Nursing
+type: financial
+text: MALAYSIAN STUDENTS: Application Fee RM200, Registration Fee RM500, Tuition Fee RM13,000 per semester, Total Programme Cost RM104,500. Additional costs include Clinical Training Fee RM1,000/semester, Uniform & Equipment RM1,500 (one-time), and Medical Insurance RM200/year. INTERNATIONAL STUDENTS: Application Fee RM500, Registration Fee RM1,000, Tuition Fee RM19,000 per semester, Total Programme Cost RM153,000. Additional costs include Clinical Training Fee RM1,000/semester and Visa Processing RM1,000. ADMISSION REQUIREMENTS: SPM with 5 credits including Biology, Chemistry, Mathematics. Medical check-up and immunization records required. IELTS 6.0 for international students. Interview, aptitude test, and clean criminal record check mandatory. SCHOLARSHIPS: Healthcare Heroes Scholarship offers 50% tuition reduction for outstanding academic performance plus community service record, requiring 2-year service commitment in Malaysian healthcare system. Clinical Excellence Scholarship provides 35% reduction based on clinical performance. International Healthcare Scholarship gives 25% reduction with cultural integration support. Career prospects include Registered Nurse (RM3,200-4,800), Community Health Nurse, Nursing Educator, and Specialist Nurse roles with excellent job security and professional development opportunities.
+===CHUNK_END===
+
+===CHUNK_START===
+level: general
+course_name: Admission Requirements
+type: requirements
+text: UNDERGRADUATE MALAYSIAN STUDENTS: SPM minimum 5 credits including Bahasa Malaysia, English, Mathematics. STPM minimum Grade C in 2 subjects plus SPM requirements. Matriculation minimum CGPA 2.00 plus SPM requirements. Diploma minimum CGPA 2.50 in relevant field. Foundation minimum CGPA 2.00 in relevant programme. PROGRAMME-SPECIFIC REQUIREMENTS: Engineering programmes require additional credits in Physics and Chemistry. Health Sciences programmes need credits in Biology and Chemistry. Computing programmes prefer strong Mathematics performance. INTERNATIONAL STUDENTS: GCE A-Level minimum 2 passes. International Baccalaureate minimum 24 points. Australian Matriculation ATAR 65 or equivalent. Canadian Pre-University minimum 65% average. ENGLISH REQUIREMENTS: IELTS minimum band 6.0 (no band less than 5.5), TOEFL iBT minimum 80, Cambridge English minimum 169 (B2 First), PTE Academic minimum 58. POSTGRADUATE REQUIREMENTS: Master's Coursework requires Bachelor's CGPA 2.75 OR CGPA 2.50-2.74 plus 5 years relevant experience OR CGPA 2.00-2.49 plus 5 years experience plus portfolio. MBA requires minimum 3 years management experience. Research programmes need CGPA 3.00 or Master's qualification with research proposal and supervisor agreement.
+===CHUNK_END===
+
+===CHUNK_START===
+level: general
+course_name: Application Process & Deadlines
+type: requirements
+text: ONLINE APPLICATION: Visit apply.kdmglobal.edu.my, create account, complete application form, upload digital documents, pay application fee online. REQUIRED DOCUMENTS: Academic transcripts (original plus certified copies), academic certificates, identity card/passport copy, passport-sized photographs (4 copies), English proficiency certificate for international students, medical report for health sciences programmes. ASSESSMENT PROCESS: Document verification (5-7 working days), interview if required, portfolio assessment for creative programmes, aptitude test for specific programmes. OFFER LETTER: Conditional/Unconditional offer issued with fee payment schedule and accommodation information. ACCEPTANCE: Accept offer within 2 weeks, pay registration fee and first semester fees, complete medical check-up for international students, attend orientation programme. INTAKE DEADLINES: January Intake applications open August 1, early bird deadline October 15 (10% discount), final deadline November 30. April Intake applications open November 1, early bird deadline January 15, final deadline February 28. August Intake applications open March 1, early bird deadline May 15, final deadline June 30. PROCESSING TIME: Malaysian students 2-3 weeks, International students 4-6 weeks including visa processing. VISA INFORMATION: Student Pass requires valid passport (18 months validity), offer letter, medical examination, financial guarantee RM350/month, police clearance, processing time 4-6 weeks, visa fee RM1,000 included.
+===CHUNK_END===
+
+===CHUNK_START===
+level: general
+course_name: Campus Facilities & Student Life
+type: facilities
+text: FOUR STRATEGIC CAMPUS LOCATIONS: Main Campus Kuala Lumpur (50 acres, 5,000 students) houses Computing & Business faculties with 15 smart lecture halls, 800 computer workstations, 80,000-book library, sports complex, cafeteria, and 1,200 parking spaces. Engineering Campus Shah Alam (40 acres, 2,000 students) features advanced laboratories, manufacturing workshop with CNC machines, robotics lab, CAD/CAM studios, and materials testing facilities. Health Sciences Campus Selangor (25 acres, 1,200 students) includes simulation hospital with 15 beds, anatomy laboratory with virtual dissection, microbiology labs, nursing skills laboratory, and physiotherapy clinic. Creative Arts Campus Petaling Jaya (10 acres, 800 students) offers photography studios, video production suites, animation labs, printmaking workshop, and art galleries. STUDENT ACCOMMODATION: On-campus residence halls with twin-sharing rooms (undergraduate) and single rooms (postgraduate), air conditioning, 24/7 security, key card access, laundry facilities. Malaysian students RM800-1,200/month, International RM1,000-1,500/month, utilities included, RM500 refundable deposit. STUDENT SUPPORT SERVICES: Academic support with free tutoring, study workshops, writing assistance, peer mentoring. Personal support including counseling services, health clinic, wellness programmes. International student support with visa assistance, airport pickup, cultural orientation, buddy system, language exchange programmes.
+===CHUNK_END===
+
+===CHUNK_START===
+level: general
+course_name: Scholarships & Financial Aid
+type: financial
+text: MERIT-BASED SCHOLARSHIPS: Presidential Scholarship offers 100% tuition fees plus RM800 monthly allowance for perfect SPM results (9A+), requiring CGPA 3.75+ maintenance, 3 awards per intake. Dean's Excellence Scholarship provides 75% tuition reduction for 8A+ SPM results, requiring CGPA 3.50+, 10 awards per intake. Academic Achievement Scholarship gives 50% tuition reduction for 6A+ SPM results, requiring CGPA 3.25+, 50 awards per intake. NEED-BASED AID: Student Assistance Fund offers 25-40% tuition reduction for demonstrated financial need plus academic merit, requiring family income verification. Emergency Financial Support provides up to RM5,000 annually for unexpected hardships, interest-free loan with flexible repayment. SPECIALIZED SCHOLARSHIPS: STEM Excellence Scholarship gives 60% reduction for Science/Technology/Engineering/Mathematics programmes with industry sponsors (Intel, Microsoft, Genting), including internship guarantee and 2-year employment bond. Healthcare Heroes Scholarship offers 55% reduction for Health Sciences with Ministry of Health partnership and 3-year service commitment. Creative Arts Scholarship provides 45% reduction for portfolio-based selection with exhibition opportunities and industry mentorship. EXTERNAL FUNDING: PTPTN offers up to 100% tuition for Malaysian students with family income below RM4,000, income-based repayment post-graduation. Malaysia International Scholarship (MIS) provides full tuition plus living allowance for outstanding international students. ASEAN Scholarship Programme gives 50% reduction for ASEAN member countries with cultural exchange component. Payment options include full payment discount (15% off), semester payment plans, monthly installments, and graduate payment plans.
+===CHUNK_END===
+
+===CHUNK_START===
+level: general
+course_name: Career Services & Industry Partnerships
+type: career
+text: COMPREHENSIVE CAREER SUPPORT: Career Development Center provides career counseling and planning, resume and interview preparation, job search strategies, networking events, industry talks, career fairs, graduate employment tracking, and alumni networking. Strong industry partnerships with 25+ leading companies for internships, mentorship programmes, real-world project collaborations, graduate recruitment, and professional certification preparation. EMPLOYMENT OUTCOMES: Overall 92% employment rate within 6 months of graduation. Computing graduates achieve 94% employment with average starting salaries RM3,500-7,000, top employers include Microsoft, Google, Amazon, local tech companies. Business graduates reach 89% employment with salaries RM3,200-4,800, working with major brands, consulting firms, multinational corporations. Engineering graduates obtain 93% employment with salaries RM3,800-5,200, joining Proton, Perodua, Shell, Petronas, construction companies. Health Sciences graduates achieve 95% employment with salaries RM3,200-4,800, serving in government hospitals, private healthcare, community health centers. CONTINUING EDUCATION: Work-study programmes with on-campus employment, research assistant positions, teaching assistantships, cooperative education programmes, graduate assistantships for postgraduate students with tuition waivers and monthly stipends. Professional development workshops, certification programmes, alumni mentorship, and lifelong learning opportunities ensure continuous career advancement.
+===CHUNK_END=== 

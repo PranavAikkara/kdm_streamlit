@@ -1,0 +1,12 @@
+google-adk
+streamlit
+PyMUPDF
+uvicorn
+qdrant-client
+python-docx
+python-dotenv
+aiohttp
+Pillow
+requests
+litellm
+pypdf

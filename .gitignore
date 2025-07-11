@@ -1,0 +1,6 @@
+__pycache__/
+.env
+log/
+kdmvenv/
+user_data.json
+kdm/
