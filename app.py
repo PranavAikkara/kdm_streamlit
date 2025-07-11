@@ -1,6 +1,8 @@
 import streamlit as st
 import uuid
-from main import call_agent
+import threading
+import time
+from main import call_agent, runner, APP_NAME, USER_ID
 
 # Page configuration
 st.set_page_config(
@@ -9,6 +11,33 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+
+# Initialize system status in session state
+if 'system_initialized' not in st.session_state:
+    st.session_state.system_initialized = False
+    st.session_state.system_status = "Initializing..."
+
+# Initialize the system on first run
+def initialize_system():
+    """Initialize the KDM system and check all components."""
+    try:
+        # Check if runner is properly initialized
+        if runner and runner.agent:
+            st.session_state.system_status = "✅ System Ready"
+            st.session_state.system_initialized = True
+            return True
+        else:
+            st.session_state.system_status = "❌ System Error"
+            return False
+    except Exception as e:
+        st.session_state.system_status = f"❌ Error: {str(e)[:50]}..."
+        return False
+
+# Run system initialization
+if not st.session_state.system_initialized:
+    with st.spinner("🔧 Initializing KDM AI System..."):
+        time.sleep(1)  # Brief pause for visual feedback
+        initialize_system()
 
 # Custom CSS for enhanced professional styling
 st.markdown("""
@@ -26,6 +55,28 @@ st.markdown("""
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
     header {visibility: hidden;}
+    
+    /* System status styling */
+    .system-status {
+        background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+        border: 1px solid #16a34a;
+        border-radius: 8px;
+        padding: 0.75rem 1rem;
+        margin-bottom: 1rem;
+        font-size: 0.9rem;
+        text-align: center;
+        font-weight: 500;
+    }
+    
+    .system-status.error {
+        background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%);
+        border-color: #dc2626;
+        color: #dc2626;
+    }
+    
+    .system-status.ready {
+        color: #16a34a;
+    }
     
     /* Animated background */
     .main-header {
@@ -320,6 +371,14 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
+# System status indicator
+status_class = "system-status ready" if st.session_state.system_initialized else "system-status error"
+st.markdown(f"""
+<div class="{status_class}">
+    🤖 KDM AI System Status: {st.session_state.system_status}
+</div>
+""", unsafe_allow_html=True)
+
 # Enhanced main header with animation
 st.markdown("""
 <div class="main-header">
@@ -330,6 +389,22 @@ st.markdown("""
 
 # --- Enhanced Professional Sidebar ---
 with st.sidebar:
+    # System Information Section
+    st.markdown(f"""
+    <div class="sidebar-section">
+        <h3 style="margin: 0 0 1rem 0; color: #1e293b; font-size: 1.1rem; text-align: center;">
+            🔧 System Info
+        </h3>
+        <div style="background: #f1f5f9; padding: 1rem; border-radius: 8px;">
+            <p style="margin: 0; font-size: 0.8rem; color: #64748b;">
+                <strong>App:</strong> {APP_NAME}<br/>
+                <strong>User ID:</strong> {USER_ID}<br/>
+                <strong>Status:</strong> <span style="color: #16a34a;">{"Online" if st.session_state.system_initialized else "Offline"}</span>
+            </p>
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
+    
     st.markdown("""
     <div class="sidebar-section">
         <h3 style="margin: 0 0 1rem 0; color: #1e293b; font-size: 1.3rem; text-align: center;">
@@ -397,6 +472,11 @@ with st.sidebar:
         </div>
         """, unsafe_allow_html=True)
 
+# Only show chat if system is initialized
+if not st.session_state.system_initialized:
+    st.error("❌ **System Not Ready**: Please check your configuration and restart the application.")
+    st.stop()
+
 # --- Enhanced Main Chat Container ---
 st.markdown('<div class="chat-container">', unsafe_allow_html=True)
 
@@ -433,10 +513,8 @@ if not st.session_state.history:
                 I'm your intelligent admission assistant, ready to guide you through your entire educational journey. 
                 Let's start by getting to know you better!
             </p>
-            
-           
-            
-           
+        </div>
+    </div>
     """, unsafe_allow_html=True)
     st.session_state.history.append({
         "role": "assistant", 
